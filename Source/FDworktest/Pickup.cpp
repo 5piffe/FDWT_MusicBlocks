@@ -46,6 +46,7 @@ void APickup::Tick(float DeltaTime)
 
 void APickup::Pickup()
 {
+
 	bIsHolding = !bIsHolding;
 	bUseGravity = !bUseGravity;
 	PickupMesh->SetEnableGravity(bUseGravity);
@@ -54,9 +55,8 @@ void APickup::Pickup()
 
 	if (!bIsHolding)
 	{
-		int ThrowForceMultiplyer = 10000;
 		FVector PlayerForward = PlayerCamera->GetForwardVector();
-		PickupMesh->AddForce(PlayerForward * ThrowForce * ThrowForceMultiplyer);
+		PickupMesh->AddImpulse(PlayerForward * ThrowForce);
 		UFMODBlueprintStatics::PlayEventAtLocation(GetWorld(), DropEvent, GetActorTransform(), true);
 	}
 	else
