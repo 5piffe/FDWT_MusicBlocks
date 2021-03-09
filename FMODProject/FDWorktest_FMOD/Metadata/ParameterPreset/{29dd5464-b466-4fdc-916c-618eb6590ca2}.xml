@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{29dd5464-b466-4fdc-916c-618eb6590ca2}">
+		<property name="name">
+			<value>Crossfade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6d78021-1049-43cb-878e-65ff7f34748e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{24a165ed-2a1e-4468-ba66-ff1ad5c8848a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{24a165ed-2a1e-4468-ba66-ff1ad5c8848a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

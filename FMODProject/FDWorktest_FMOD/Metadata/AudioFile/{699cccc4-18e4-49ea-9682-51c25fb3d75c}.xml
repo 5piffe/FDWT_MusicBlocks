@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{699cccc4-18e4-49ea-9682-51c25fb3d75c}">
+		<property name="assetPath">
+			<value>Nes-ish_SquareMel1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>40</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a9d45fc6-6981-460d-a126-43cf3c1bda5e}</destination>
+		</relationship>
+	</object>
+</objects>

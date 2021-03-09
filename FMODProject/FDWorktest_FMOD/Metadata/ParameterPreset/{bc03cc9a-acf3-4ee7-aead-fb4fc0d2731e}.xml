@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{bc03cc9a-acf3-4ee7-aead-fb4fc0d2731e}">
+		<property name="name">
+			<value>LoPassJumpEffect</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6d78021-1049-43cb-878e-65ff7f34748e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{99d13cc0-1707-4e1f-a0ab-840fc2eb57c9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{99d13cc0-1707-4e1f-a0ab-840fc2eb57c9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
